@@ -26,6 +26,15 @@ const HomePage = () => {
                 Login
         </Link>
       </button>
+      <button
+        className="px-8 py-4 bg-white text-emerald-700 font-semibold text-lg rounded-2xl shadow-lg hover:bg-gray-100 hover:scale-105 transition-transform"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+        
+        >
+            <Link to="/register">
+                Register
+        </Link>
+      </button>
           </>
     );
 }

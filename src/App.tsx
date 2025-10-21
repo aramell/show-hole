@@ -3,7 +3,9 @@ import {Routes, Route} from 'react-router-dom';
 import HomePage from './HomePage';
 import Login from './Login';  
 import Register from './Register';
+import Dashboard from './Dashboard';
 import './App.css'
+import Verify from './Verify';
 
 function App() {
   useEffect(() => {
@@ -18,6 +20,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/verify" element={<Verify />} />
         </Routes>    
     </>
   )

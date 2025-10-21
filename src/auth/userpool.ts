@@ -1,4 +1,4 @@
 import { CognitoUserPool } from 'amazon-cognito-identity-js';
 import { poolData } from '../cognitoConfig';
 
-export const userPool = new CognitoUserPool(poolData) as any
+export const userPool = new CognitoUserPool(poolData)
